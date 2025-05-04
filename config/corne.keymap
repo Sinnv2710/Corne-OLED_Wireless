@@ -20,10 +20,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp Q  &kp W  &kp E  &kp R         &kp T  &kp ESC             &kp BACKSPACE   &kp Y  &kp U             &kp I      &kp O    &kp P
-&kp A  &kp S  &kp D  &kp F         &kp G  &kp LEFT_SHIFT      &kp APOSTROPHE  &kp H  &kp J             &kp K      &kp L    &kp SEMI
-&kp Z  &kp X  &kp C  &kp V         &kp B  &kp LEFT_CONTROL    &kp LG(SPACE)   &kp N  &kp M             &kp COMMA  &kp DOT  &kp SLASH
-                     &kp LEFT_ALT  &mo 1  &kp RETURN          &kp SPACE       &mo 2  &kp LEFT_COMMAND
+&kp TAB           &kp Q  &kp W  &kp E         &kp R  &kp T         &kp Y      &kp U  &kp I             &kp O    &kp P          &kp BACKSPACE
+&kp LEFT_SHIFT    &kp A  &kp S  &kp D         &kp F  &kp G         &kp H      &kp J  &kp K             &kp L    &kp SEMICOLON  &kp SINGLE_QUOTE
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C         &kp V  &kp B         &kp N      &kp M  &kp COMMA         &kp DOT  &kp SLASH      &kp LG(SPACE)
+                                &kp LEFT_ALT  &mo 1  &kp RETURN    &kp SPACE  &mo 2  &kp LEFT_COMMAND
             >;
         };
 
@@ -35,9 +35,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6       &kp N7         &kp N8           &kp N9      &kp N0  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp PAGE_UP  &kp PAGE_DOWN  &kp PRINTSCREEN  &kp DELETE  &trans  &trans
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans       &kp LEFT       &kp DOWN         &kp RIGHT   &trans  &trans
+&kp ESC     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6       &kp N7         &kp N8        &kp N9      &kp N0  &kp BSPC
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp PAGE_UP  &kp PAGE_DOWN  &kp UP        &kp DELETE  &trans  &trans
+&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans       &kp LEFT       &kp DOWN      &kp RIGHT   &trans  &trans
                                         &kp LGUI      &trans        &kp SPACE       &kp RET      &trans         &kp LEFT_ALT
             >;
         };
